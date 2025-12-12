@@ -9,11 +9,12 @@ Tiny Crew is a cooperative trick-taking card game where players work together to
 ## File Structure
 
 ```
-tiny_crew/
+.
 ├── README.md              # This file
 ├── tiny_crew.py          # Main game implementation
 ├── tiny_crew_cfr.py      # CFR solver with policy evaluation
-└── test_tiny_crew.py     # Unit tests
+├── test_tiny_crew.py     # Unit tests
+└── __init__.py           # Package initialization
 ```
 
 ## Game Rules
