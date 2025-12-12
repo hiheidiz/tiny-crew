@@ -34,3 +34,7 @@ htmlcov/
 # Jupyter
 .ipynb_checkpoints/
 
+# Tiny Hanabi files (not part of this repo)
+tiny_hanabi.*
+test_tiny_hanabi.py
+
