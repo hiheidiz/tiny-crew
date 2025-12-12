@@ -7,7 +7,7 @@ This package contains:
 - test_tiny_crew.py: Unit tests
 """
 
-from tiny_crew.tiny_crew import TinyCrewGame, TinyCrewState, Card, Task
+from tiny_crew import TinyCrewGame, TinyCrewState, Card, Task
 
 __all__ = ['TinyCrewGame', 'TinyCrewState', 'Card', 'Task']
 
