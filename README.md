@@ -109,7 +109,7 @@ hand:Card1,Card2,...|tasks:task1,task2,...|trick:P0:Card,P1:Card,...|last_winner
 ### Basic Usage
 
 ```python
-from tiny_crew.tiny_crew import TinyCrewGame
+from tiny_crew import TinyCrewGame
 
 # Create game (always 3 players)
 game = TinyCrewGame()

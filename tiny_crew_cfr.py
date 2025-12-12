@@ -10,10 +10,10 @@ This implementation correctly handles:
 
 import sys
 import os
-# Add parent directory to path to import tiny_crew
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# Add current directory to path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from tiny_crew.tiny_crew import TinyCrewGame
+from tiny_crew import TinyCrewGame
 import numpy as np
 from collections import defaultdict
 from typing import Dict, List, Tuple

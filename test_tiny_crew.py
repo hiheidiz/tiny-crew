@@ -4,10 +4,10 @@ Test file for Tiny Crew game implementation.
 
 import sys
 import os
-# Add parent directory to path to import tiny_crew
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# Add current directory to path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from tiny_crew.tiny_crew import (
+from tiny_crew import (
     TinyCrewGame, TinyCrewState, Card, create_deck, create_simple_tasks,
     NUM_COLORS, COLOR_VALUES, COLORS
 )
